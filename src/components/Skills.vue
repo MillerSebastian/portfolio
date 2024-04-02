@@ -1,23 +1,27 @@
 <script setup lang="ts">
-function efectoHabilidades() {
-  var skills = document.getElementById("skills");
-  var distancia_skills =
-    window.innerHeight - skills.getBoundingClientRect().top;
-  if (distancia_skills >= 300) {
-    let habilidades = document.getElementsByClassName("progreso");
-    habilidades[0].classList.add("javascript");
-    habilidades[1].classList.add("htmlcss");
-    habilidades[2].classList.add("photoshop");
-    habilidades[3].classList.add("comunicacion");
-    habilidades[4].classList.add("trabajo");
-    habilidades[5].classList.add("creatividad");
+document.addEventListener("DOMContentLoaded", function () {
+  function efectoHabilidades() {
+    var skills = document.getElementById("skills");
+    if (skills) {
+      var distancia_skills =
+        window.innerHeight - skills.getBoundingClientRect().top;
+      if (distancia_skills >= 300) {
+        let habilidades = document.getElementsByClassName("progreso");
+        habilidades[0].classList.add("javascript");
+        habilidades[1].classList.add("htmlcss");
+        habilidades[2].classList.add("photoshop");
+        habilidades[3].classList.add("comunicacion");
+        habilidades[4].classList.add("trabajo");
+        habilidades[5].classList.add("creatividad");
+      }
+    }
   }
-}
 
-//detecto el scrolling para aplicar la animacion de la barra de habilidades
-window.onscroll = function () {
-  efectoHabilidades();
-};
+  //detecto el scrolling para aplicar la animacion de la barra de habilidades
+  window.onscroll = function () {
+    efectoHabilidades();
+  };
+});
 </script>
 <template>
   <section class="skills" id="skills">

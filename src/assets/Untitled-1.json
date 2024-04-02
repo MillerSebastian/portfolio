@@ -1,0 +1,103 @@
+{
+  "knownSymbols": {
+    "router": [
+      {
+        "name": "router",
+        "path": "/Users/mackbookpro/Desktop/portfolio.vue/src/router/index.ts",
+        "isDefault": true
+      }
+    ],
+    "createRouter": [
+      {
+        "name": "createRouter",
+        "module": "vue-router",
+        "isDefault": false
+      }
+    ],
+    "createWebHistory": [
+      {
+        "name": "createWebHistory",
+        "module": "vue-router",
+        "isDefault": false
+      }
+    ],
+    "createApp": [
+      {
+        "name": "createApp",
+        "module": "vue",
+        "isDefault": false
+      }
+    ],
+    "RouterLink": [
+      {
+        "name": "RouterLink",
+        "module": "vue-router",
+        "isDefault": false
+      }
+    ],
+    "RouterView": [
+      {
+        "name": "RouterView",
+        "module": "vue-router",
+        "isDefault": false
+      }
+    ],
+    "mergeConfig": [
+      {
+        "name": "mergeConfig",
+        "module": "vitest/config",
+        "isDefault": false
+      },
+      {
+        "name": "mergeConfig",
+        "path": "/Users/mackbookpro/Desktop/portfolio.vue/vitest.config.ts",
+        "isDefault": true
+      }
+    ],
+    "fileURLToPath": [
+      {
+        "name": "fileURLToPath",
+        "module": "node:url",
+        "isDefault": false
+      }
+    ],
+    "defineConfig": [
+      {
+        "name": "defineConfig",
+        "module": "vite",
+        "isDefault": false
+      },
+      {
+        "name": "defineConfig",
+        "path": "/Users/mackbookpro/Desktop/portfolio.vue/vite.config.ts",
+        "isDefault": true
+      },
+      {
+        "name": "defineConfig",
+        "module": "vitest/config",
+        "isDefault": false
+      }
+    ],
+    "configDefaults": [
+      {
+        "name": "configDefaults",
+        "module": "vitest/config",
+        "isDefault": false
+      }
+    ],
+    "URL": [
+      {
+        "name": "URL",
+        "module": "node:url",
+        "isDefault": false
+      }
+    ],
+    "vue": [
+      {
+        "name": "vue",
+        "module": "@vitejs/plugin-vue",
+        "isDefault": true
+      }
+    ]
+  }
+}
